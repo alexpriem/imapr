@@ -1,0 +1,81 @@
+--- style.css	2014-05-04 21:00:39.521690800 +0200
++++ style_new.css	2014-05-04 21:00:28.763075400 +0200
+@@ -74,7 +74,18 @@
+ 	font-size: 13px;	
+ }
+ 
++.regio {
++  stroke: #4a4a4a;
++  stroke-width:0.5;
++  fill: #ffffff;
++}
++
+ .outline {
++  stroke: #0a0a0a;
++  stroke-width:2.0;
++  fill: #0f0fff;
++  fill-opacity: 0.0;
++
+ }
+ 
+ .border {
+@@ -187,15 +198,15 @@
+   background:#f4f4f4; /* left column background colour */
+ }
+ .threecol .col1 {
+-  width:73%;      /* width of center column content (column width minus padding on either side) */
+-  left:102%;      /* 100% plus left padding of center column */
++  width:75%;      /* width of center column content (column width minus padding on either side) */
++  left:100%;      /* 100% plus left padding of center column */
+ }
+ .threecol .col2 {
+-  width:10%;      /* Width of left column content (column width minus padding on either side) */
+-  left:18%;     /* width of (right column) plus (center column left and right padding) plus (left column left padding) */
++  width:8%;      /* Width of left column content (column width minus padding on either side) */
++  left:16%;     /* width of (right column) plus (center column left and right padding) plus (left column left padding) */
+ }
+ .threecol .col3 {
+-  width:16%;      /* Width of right column content (column width minus padding on either side) */
++  width:12%;      /* Width of right column content (column width minus padding on either side) */
+   left:95%;     /* Please make note of the brackets here:
+           (100% - left column width) plus (center column left and right padding) plus (left column left and right padding) plus (right column left padding) */
+ }
+@@ -254,3 +265,37 @@
+ .active {
+ background-color: SteelBlue;
+ }
+\ No newline at end of file
++
++
++
++#tab_chart{
++text-align: left;
++font-family:sans-serif;
++font-weight:bold;
++font-size: 13px;  
++background:#d2ecf7;
++}
++
++
++#tab_data{
++text-align: right;  
++font-family:sans-serif;
++font-weight:bold;
++font-size: 13px;  
++background:#d2ecf7;
++}
++
++
++#tabledata * th,td {
++font-family:sans-serif;
++text-align:right;
++}
++
++.even {
++background-color: #d2ecf7;
++}
++
++.odd {
++background-color: #9cd7ef;
++}
++
